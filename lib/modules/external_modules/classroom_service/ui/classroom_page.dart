@@ -58,7 +58,7 @@ class ClassroomPage extends StatelessWidget {
 
               ElevatedButton(
                 onPressed: () async {
-                  final url = Uri.parse('YOUR_COURSE_INVITE');
+                  final url = Uri.parse('YOUR_COURSE_INVITE'); // link do convite para inscrição 
                   if (await canLaunchUrl(url)) {
                     await launchUrl(url, mode: LaunchMode.externalApplication);
                   } else {
