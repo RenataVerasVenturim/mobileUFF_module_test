@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'MobileUFF Classroom App',
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.classroom,
+      initialRoute: AppRoutes.classroomPage,
       getPages: AppPages.pages,
     );
   }

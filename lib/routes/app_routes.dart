@@ -1,4 +1,4 @@
-
 class AppRoutes {
-  static const classroom = '/classroom';
+  static const classroomPage = '/classroom';
+  static const classroomWebView = '/external_modules_webview';
 }
